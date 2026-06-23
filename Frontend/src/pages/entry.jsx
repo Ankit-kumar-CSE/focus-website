@@ -26,7 +26,7 @@ const Entry = () => {
           <div id="download" className="mt-10 flex flex-col sm:flex-row gap-4">
             {/* ── Windows Download Button ── */}
             <a
-              href="/api/download/windows"
+              href={`${import.meta.env.VITE_API_URL}/api/download/windows`}
               className="inline-flex items-center justify-center gap-2.5 bg-[#00f5d4] text-[#071428] font-bold px-6 py-3.5 rounded-xl hover:bg-[#00d4b8] transition-all shadow-[0_0_24px_rgba(0,245,212,0.4)] text-sm"
             >
               <Grid2x2 className="w-4 h-4" />
@@ -35,7 +35,7 @@ const Entry = () => {
 
             {/* ── macOS Download Button ── */}
             <a
-              href="/api/download/mac"
+              href={`${import.meta.env.VITE_API_URL}/api/download/mac`}
               className="inline-flex items-center justify-center gap-2.5 text-[#D8E3FB] font-bold px-6 py-3.5 border border-[#263143] rounded-xl hover:border-[#00f5d4] hover:text-[#00f5d4] transition-all text-sm"
             >
               <Laptop className="w-4 h-4" />
