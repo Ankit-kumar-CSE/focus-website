@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: focusguard
+    name: cognora
     runtime: node
     region: oregon
     plan: free
@@ -14,8 +14,8 @@ services:
         value: production
 
       # - key: DOWNLOAD_WIN_URL
-      #   value: https://github.com/<your-username>/focusguard/releases/download/v1.0.0/FocusGuard-Setup.exe
+      #   value: https://github.com/<your-username>/cognora/releases/download/v1.0.0/Cognora-Setup.exe
       # - key: DOWNLOAD_MAC_URL
-      #   value: https://github.com/<your-username>/focusguard/releases/download/v1.0.0/FocusGuard.dmg
+      #   value: https://github.com/<your-username>/cognora/releases/download/v1.0.0/Cognora.dmg
 
     healthCheckPath: /api/health

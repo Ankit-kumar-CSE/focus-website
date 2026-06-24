@@ -7,7 +7,7 @@ const CONTENT = {
     sections: [
       {
         heading: null,
-        body: 'These Terms & Conditions govern your use of Focus Builder. By downloading or using Focus Builder, you agree to these Terms.',
+        body: 'These Terms & Conditions govern your use of Cognora. By downloading or using Cognora, you agree to these Terms.',
       },
       {
         heading: '1. Eligibility',
@@ -23,7 +23,7 @@ const CONTENT = {
         body: null,
         plans: [
           { name: 'Basic Plan', price: '₹9', desc: 'Includes selected productivity features.' },
-          { name: 'Premium Plan', price: '₹19', desc: 'Includes all available Focus Builder features.' },
+          { name: 'Premium Plan', price: '₹19', desc: 'Includes all available Cognora features.' },
         ],
         note: 'Features may change over time as the application evolves.',
       },
@@ -42,14 +42,14 @@ const CONTENT = {
           'Reverse engineer the software',
           'Modify the application without permission',
           'Redistribute the software',
-          'Sell copies of Focus Builder',
+          'Sell copies of Cognora',
           'Circumvent subscription verification',
           'Disable security mechanisms',
         ],
       },
       {
         heading: '7. Break Feature',
-        body: 'Focus Builder allows users to activate Break Mode. The maximum break duration is 4 hours. Once a break ends, another break cannot be started for 72 hours.',
+        body: 'Cognora allows users to activate Break Mode. The maximum break duration is 4 hours. Once a break ends, another break cannot be started for 72 hours.',
       },
       {
         heading: '8. Updates',
@@ -57,7 +57,7 @@ const CONTENT = {
       },
       {
         heading: '9. Limitation of Liability',
-        body: 'Focus Builder is provided "as is." We are not responsible for:',
+        body: 'Cognora is provided "as is." We are not responsible for:',
         bullets: [
           'Loss of productivity',
           'Data loss caused by user actions',
@@ -82,11 +82,11 @@ const CONTENT = {
     sections: [
       {
         heading: null,
-        body: 'Welcome to Focus Builder ("Focus Builder", "we", "our", or "us"). Your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, where it is stored, and your rights regarding your information.\n\nBy downloading, installing, or using Focus Builder, you agree to this Privacy Policy.',
+        body: 'Welcome to Cognora ("Cognora", "we", "our", or "us"). Your privacy is important to us. This Privacy Policy explains what information we collect, how we use it, where it is stored, and your rights regarding your information.\n\nBy downloading, installing, or using Cognora, you agree to this Privacy Policy.',
       },
       {
-        heading: '1. About Focus Builder',
-        body: 'Focus Builder is a desktop productivity application designed to help users improve focus while studying or working. It monitors active desktop applications and browser activity (through the optional Focus Builder browser extension), provides distraction reminders, blocks selected applications and websites, and generates productivity statistics.',
+        heading: '1. About Cognora',
+        body: 'Cognora is a desktop productivity application designed to help users improve focus while studying or working. It monitors active desktop applications and browser activity (through the optional Cognora browser extension), provides distraction reminders, blocks selected applications and websites, and generates productivity statistics.',
       },
       {
         heading: '2. Information We Collect',
@@ -99,7 +99,7 @@ const CONTENT = {
           },
           {
             subHeading: 'Productivity Data',
-            body: 'Focus Builder stores productivity information locally on your computer. This includes:',
+            body: 'Cognora stores productivity information locally on your computer. This includes:',
             bullets: ['Active application names', 'Active website URLs (received from the browser extension)', 'Focus time', 'Study time', 'Work time', 'Distraction time', 'Break sessions', 'Daily productivity statistics', 'Monthly productivity history'],
             note: 'This data is retained on your device for approximately 60 days unless you delete it. We do not upload this productivity data to our servers unless a future feature explicitly requires your consent.',
           },
@@ -112,7 +112,7 @@ const CONTENT = {
       },
       {
         heading: '3. Cookies',
-        body: 'Focus Builder does not use cookies within the desktop application. Our website may use essential technical cookies if required for login or payment processing.',
+        body: 'Cognora does not use cookies within the desktop application. Our website may use essential technical cookies if required for login or payment processing.',
       },
       {
         heading: '4. How We Use Information',
@@ -143,28 +143,28 @@ const CONTENT = {
       },
       {
         heading: '9. Children\'s Privacy',
-        body: 'Focus Builder is not intended for children under 13 years of age.',
+        body: 'Cognora is not intended for children under 13 years of age.',
       },
       {
         heading: '10. Changes',
-        body: 'We may update this Privacy Policy periodically. Continued use of Focus Builder after changes become effective constitutes acceptance of the updated policy.',
+        body: 'We may update this Privacy Policy periodically. Continued use of Cognora after changes become effective constitutes acceptance of the updated policy.',
       },
       {
         heading: '11. Contact',
-        body: 'For questions regarding privacy, please contact us through the official Focus Builder website.',
+        body: 'For questions regarding privacy, please contact us through the official Cognora website.',
       },
     ],
   },
   licenses: {
     title: 'Third-Party Licenses',
     effectiveDate: 'June 14, 2026',
-    intro: 'Focus Builder includes third-party open-source software. These components are licensed under their own respective licenses and remain the intellectual property of their respective copyright holders.',
+    intro: 'Cognora includes third-party open-source software. These components are licensed under their own respective licenses and remain the intellectual property of their respective copyright holders.',
     libs: [
-      { name: 'Electron', url: 'https://www.electronjs.org/', license: 'MIT License', purpose: 'Provides the desktop application framework used to build Focus Builder.', copyright: 'Copyright © OpenJS Foundation and Electron contributors.' },
+      { name: 'Electron', url: 'https://www.electronjs.org/', license: 'MIT License', purpose: 'Provides the desktop application framework used to build Cognora.', copyright: 'Copyright © OpenJS Foundation and Electron contributors.' },
       { name: 'Chromium', url: 'https://www.chromium.org/', license: 'BSD-style License', purpose: 'Provides the embedded browser engine used internally by Electron.' },
       { name: 'Node.js', url: 'https://nodejs.org/', license: 'MIT License', purpose: 'Provides the JavaScript runtime environment for the desktop application.', copyright: 'Copyright © OpenJS Foundation and Node.js contributors.' },
-      { name: 'Electron Builder', url: 'https://www.electron.build/', license: 'MIT License', purpose: 'Used to package and distribute Focus Builder for Windows, macOS, and Linux.' },
-      { name: 'Express', url: 'https://expressjs.com/', license: 'MIT License', purpose: 'Provides the local HTTP server used by Focus Builder.' },
+      { name: 'Electron Builder', url: 'https://www.electron.build/', license: 'MIT License', purpose: 'Used to package and distribute Cognora for Windows, macOS, and Linux.' },
+      { name: 'Express', url: 'https://expressjs.com/', license: 'MIT License', purpose: 'Provides the local HTTP server used by Cognora.' },
       { name: 'Axios', url: 'https://axios-http.com/', license: 'MIT License', purpose: 'Handles HTTP requests between the desktop application and backend services.' },
       { name: 'CORS', url: 'https://github.com/expressjs/cors', license: 'MIT License', purpose: 'Enables secure Cross-Origin Resource Sharing (CORS) for local server communication.' },
       { name: 'dotenv', url: 'https://github.com/motdotla/dotenv', license: 'BSD-2-Clause License', purpose: 'Loads environment variables from configuration files.' },
@@ -316,10 +316,10 @@ const LicensesContent = ({ data }) => (
     <div className="bg-[#0d1f3c] border border-[#1a2d4a] rounded-xl p-4 mt-2">
       <h4 className="text-white font-semibold text-sm mb-2">Additional Dependencies</h4>
       <p className="text-[#a0acc2] text-xs leading-relaxed">
-        Focus Builder also includes numerous indirect (transitive) dependencies installed by npm, distributed under various open-source licenses including MIT, BSD, BSD-2-Clause, BSD-3-Clause, ISC, Apache 2.0, and others. All third-party libraries remain the property of their respective copyright holders.
+        Cognora also includes numerous indirect (transitive) dependencies installed by npm, distributed under various open-source licenses including MIT, BSD, BSD-2-Clause, BSD-3-Clause, ISC, Apache 2.0, and others. All third-party libraries remain the property of their respective copyright holders.
       </p>
     </div>
-    <p className="text-[#4a5568] text-xs mt-4">© 2026 Focus Builder. All rights reserved. Third-party trademarks, logos, software, and copyrights remain the property of their respective owners.</p>
+    <p className="text-[#4a5568] text-xs mt-4">© 2026 Cognora. All rights reserved. Third-party trademarks, logos, software, and copyrights remain the property of their respective owners.</p>
   </div>
 )
 

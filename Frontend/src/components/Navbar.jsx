@@ -8,9 +8,9 @@ const Navbar = () => {
         {/* Logo */}
         <div className='flex items-center gap-3'>
           <div className='w-9 h-9 rounded-lg flex items-center justify-center shadow-[0_0_16px_rgba(0,245,212,0.5)]'>
-            <img src={logo} alt="FocusGuard Logo" className='rounded-lg' />
+            <img src={logo} alt="Cognora Logo" className='rounded-lg' />
           </div>
-          <span className='font-bold text-xl text-white tracking-tight'>Focus<span className='text-[#00f5d4]'>Guard</span></span>
+          <span className='font-bold text-xl text-white tracking-tight'>Cog<span className='text-[#00f5d4]'>nora</span></span>
         </div>
 
         {/* Nav Links */}

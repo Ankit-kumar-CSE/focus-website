@@ -1,7 +1,7 @@
 {
-  "name": "focusguard-website",
+  "name": "cognora-website",
   "version": "1.0.0",
-  "description": "FocusGuard landing page — monorepo root scripts",
+  "description": "Cognora landing page — monorepo root scripts",
   "private": true,
   "scripts": {
     "dev": "concurrently -n FRONTEND,BACKEND -c cyan,green \"npm run dev --prefix Frontend\" \"npm run dev --prefix Backend\"",
